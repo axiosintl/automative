@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_mlag_model_Service" object="${service}" path="/services" z="nbFCYkl/uBPl04e48me/cv7es70=">
+        <field:display field="servicedescription" id="s_org_mlag_model_Service_servicedescription" object="${service}" z="5FAv+SmW3cqXDJLAg9aRHMoxz8k="/>
+        <field:display field="createdby" id="s_org_mlag_model_Service_createdby" object="${service}" z="US7+Ycq5BO0iXUpwRmpZPsbC1rs="/>
+        <field:display field="userId" id="s_org_mlag_model_Service_userId" object="${service}" z="Y9RKy2+h8hlfiAXBvIpx8J+poD4="/>
+        <field:display date="true" dateTimePattern="${service_createddate_date_format}" field="createddate" id="s_org_mlag_model_Service_createddate" object="${service}" z="c1CwSc3RQst5WzXgQa4x5SvePBA="/>
+        <field:display date="true" dateTimePattern="${service_updateddate_date_format}" field="updateddate" id="s_org_mlag_model_Service_updateddate" object="${service}" z="8wCux/dBHnCjMVd4ZWpEGPTUEuY="/>
+    </page:show>
+</div>

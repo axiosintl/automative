@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_mlag_model_LoginUser" items="${loginusers}" z="2wM9RycgRk7R6EETZBOr0TAOXpk=">
+        <table:table data="${loginusers}" id="l_org_mlag_model_LoginUser" path="/loginusers" typeIdFieldName="userId" z="6/FzAkZSiM2b22Enp5bmdSeoIBk=">
+            <table:column id="c_org_mlag_model_LoginUser_username" property="username" z="RbbAif0P9iXopWOyTgQWZdZSNEo="/>
+            <table:column id="c_org_mlag_model_LoginUser_password" property="password" z="DQa7VmpGpt+BogzUXAhu4YxULpg="/>
+            <table:column id="c_org_mlag_model_LoginUser_emailId" property="emailId" z="0+/PHFyA+FqwXwKkr+t6VCTTt8I="/>
+            <table:column id="c_org_mlag_model_LoginUser_enabled" property="enabled" z="tDSs3mQNj+RmFj1zxpmnWvpSovs="/>
+            <table:column id="c_org_mlag_model_LoginUser_firstName" property="firstName" z="l700Nr+S5xdTLvNUAu6TYJCtrug="/>
+            <table:column id="c_org_mlag_model_LoginUser_lastName" property="lastName" z="kN0PtkB8rObpISVRFmVXBz7edJw="/>
+        </table:table>
+    </page:list>
+</div>

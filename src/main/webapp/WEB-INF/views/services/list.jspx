@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_mlag_model_Service" items="${services}" z="e1vQbBq6d+E2dbKwBeODMjVc4PM=">
+        <table:table data="${services}" id="l_org_mlag_model_Service" path="/services" typeIdFieldName="serviceid" z="dOoOhBk3MOPcqi4UY6tJyupI6Qo=">
+            <table:column id="c_org_mlag_model_Service_servicedescription" property="servicedescription" z="Stl9Pj2IKO6G5r9DhTc+UVIlmik="/>
+            <table:column id="c_org_mlag_model_Service_createdby" property="createdby" z="2gaec6QZxYYj9E9JSOWJxrXTAtI="/>
+            <table:column id="c_org_mlag_model_Service_userId" property="userId" z="hyKl/LW5G4xDt9jE/qFBLX9aoZI="/>
+            <table:column date="true" dateTimePattern="${service_createddate_date_format}" id="c_org_mlag_model_Service_createddate" property="createddate" z="+g7gYCoJQ3PHX6HNKVuNou48Iyk="/>
+            <table:column date="true" dateTimePattern="${service_updateddate_date_format}" id="c_org_mlag_model_Service_updateddate" property="updateddate" z="nv8zdjmJH+btTyFZcW77am1ESiQ="/>
+        </table:table>
+    </page:list>
+</div>

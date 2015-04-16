@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_mlag_model_LoginUser" object="${loginuser}" path="/loginusers" z="zLwaEJlDAToPWl4xQ+qxvz2KotA=">
+        <field:display field="username" id="s_org_mlag_model_LoginUser_username" object="${loginuser}" z="IGJa0L8mCa+OypJo6kAd2KIB5lo="/>
+        <field:display field="password" id="s_org_mlag_model_LoginUser_password" object="${loginuser}" z="DhgXVO7203/IXVTIU+xLPrfkQt4="/>
+        <field:display field="emailId" id="s_org_mlag_model_LoginUser_emailId" object="${loginuser}" z="fJXkbiR0N5ehFD+PJrp2K6ar1i0="/>
+        <field:display field="enabled" id="s_org_mlag_model_LoginUser_enabled" object="${loginuser}" z="EZQ9CklPwCpMr4XPFNMab9KA9Dk="/>
+        <field:display field="firstName" id="s_org_mlag_model_LoginUser_firstName" object="${loginuser}" z="m6FOEfwR6qcG7PdnGSfE7jA1pfg="/>
+        <field:display field="lastName" id="s_org_mlag_model_LoginUser_lastName" object="${loginuser}" z="Zxxo8DZ/gmd4z8ed8chWp6iELBU="/>
+        <field:display field="phone" id="s_org_mlag_model_LoginUser_phone" object="${loginuser}" z="IdVP9imhAijHNNDNPu5PrhQjXGs="/>
+        <field:display date="true" dateTimePattern="${loginUser_dateofbirth_date_format}" field="dateOfBirth" id="s_org_mlag_model_LoginUser_dateOfBirth" object="${loginuser}" z="gUo1L5XImMkDQlftobXneLyclfc="/>
+    </page:show>
+</div>
